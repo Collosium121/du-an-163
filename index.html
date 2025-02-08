@@ -1,11 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Trang chủ</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+      nav {
+        background: #333;
+        color: white;
+        padding: 10px 0;
+        text-align: center;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        padding: 15px 20px;
+        display: inline-block;
+      }
+      nav a:hover {
+        background: #575757;
+      }
+      .container {
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
-    <h1>Thông tin cá nhân</h1>
+    <nav>
+      <a href="http://" target="_blank" rel="noopener noreferrer"
+        >Thông tin cá nhân</a
+      >
+      <a href="http://" target="_blank" rel="noopener noreferrer">
+        Blog zui zẻ</a
+      >
+      <a href="http://" target="_blank" rel="noopener noreferrer"
+        >Video, tài liệu học tập
+      </a>
+      <a href="http://" target="_blank" rel="noopener noreferrer"
+        >Định hướng phát triển</a
+      >
+      <a href="http://" target="_blank" rel="noopener noreferrer">Liên hệ</a>
+    </nav>
+
+    <div class="container" id="home">
+      <h1>Chào mừng đến với trang web của chúng tôi</h1>
+      <p>Đây là trang chủ.</p>
+    </div>
+    <div class="container" id="about">
+      <h1>Giới Thiệu</h1>
+      <p>Chúng tôi là công ty cung cấp dịch vụ chất lượng.</p>
+    </div>
+    <div class="container" id="services">
+      <h1>Dịch Vụ</h1>
+      <p>Nhận sửa chữa hàng tiêu dùng</p>
+    </div>
+    <div class="container" id="contact">
+      <h1>Liên Hệ</h1>
+      <p>Liên hệ với tôi thông qua những phương tiện truyền thông</p>
+    </div>
+    <div class="container" id="blog">
+      <h1>Blog</h1>
+      <p>Đọc những bài viết mới nhất của chúng tôi.</p>
+    </div>
   </body>
 </html>
